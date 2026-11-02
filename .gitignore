@@ -203,7 +203,6 @@ nsys-rep/
 # 6. DATA SCIENCE & ANALYTICS
 # ============================================================
 
-*.csv
 *.tsv
 *.parquet
 *.feather
