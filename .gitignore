@@ -1,0 +1,519 @@
+
+# ============================================================
+# 1. SECRETS, CREDENTIALS & ENVIRONMENT VARIABLES
+# ============================================================
+
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+secrets/
+credentials/
+credentials.json
+secrets.json
+service-account*.json
+firebase-adminsdk*.json
+token.json
+token.pickle
+client_secret*.json
+id_rsa
+id_ed25519
+known_hosts
+.ssh/
+
+# ============================================================
+# 2. OPERATING SYSTEM FILES
+# ============================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100/
+.Trashes/
+
+# Linux
+*~
+.directory
+.Trash-*/
+
+# ============================================================
+# 3. IDEs & CODE EDITORS
+# ============================================================
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+
+# IntelliJ / PyCharm / WebStorm / Android Studio
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/private/
+
+# Sublime Text
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*.swn
+
+# ============================================================
+# 4. PYTHON
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.conda/
+conda-env/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.cache/
+coverage.xml
+nosetests.xml
+test-results/
+
+# Type checking & linting
+.mypy_cache/
+.pytype/
+.pyre/
+.ruff_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+jupyter_config.py
+
+# Python logs
+*.log
+
+# ============================================================
+# 5. AI / MACHINE LEARNING / DEEP LEARNING
+# ============================================================
+
+# Datasets
+datasets/
+dataset/
+data/
+raw_data/
+processed_data/
+training_data/
+validation_data/
+test_data/
+
+# Large model weights
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.onnx
+*.pb
+*.tflite
+*.safetensors
+*.gguf
+*.ggml
+*.bin
+*.model
+*.weights
+
+# TensorFlow / PyTorch
+checkpoints/
+logs/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+events.out.tfevents.*
+
+# Hugging Face
+.cache/huggingface/
+huggingface_cache/
+transformers_cache/
+
+# Other ML artifacts
+artifacts/
+outputs/
+experiments/
+models/
+saved_models/
+trained_models/
+embeddings/
+vector_store/
+vector_db/
+chroma_db/
+faiss_index/
+
+# GPU / profiling
+*.prof
+*.trace
+nsys-rep/
+*.ncu-rep
+
+# ============================================================
+# 6. DATA SCIENCE & ANALYTICS
+# ============================================================
+
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.arrow
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.mat
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Data visualization exports
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# Exceptions: Keep documentation assets
+!assets/
+!docs/
+!README.md
+
+# ============================================================
+# 7. WEB DEVELOPMENT - NODE.JS / JAVASCRIPT
+# ============================================================
+
+# Dependencies
+node_modules/
+jspm_packages/
+bower_components/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.svelte-kit/
+.angular/
+.parcel-cache/
+.turbo/
+.vercel/
+.netlify/
+
+# Package manager
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Framework caches
+.next/cache/
+.nuxt/
+.cache/
+
+# Environment
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ============================================================
+# 8. REACT / NEXT.JS / VUE / ANGULAR
+# ============================================================
+
+# React
+.react/
+
+# Next.js
+.next/
+
+# Vue
+.vuepress/dist/
+
+# Angular
+.angular/cache/
+
+# Storybook
+storybook-static/
+
+# ============================================================
+# 9. FLUTTER / DART / ANDROID
+# ============================================================
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-versions
+
+# Flutter generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+
+# Android
+local.properties
+.gradle/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.hprof
+
+# Signing files
+key.properties
+*.jks
+*.keystore
+*.p12
+
+# iOS
+Pods/
+.symlinks/
+Flutter/ephemeral/
+ios/Flutter/.last_build_id
+ios/ServiceDefinitions.json
+
+# Xcode
+DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# ============================================================
+# 10. JAVA / JVM / SPRING BOOT
+# ============================================================
+
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Build systems
+target/
+.gradle/
+build/
+
+# Gradle
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# Maven
+pom.xml.versionsBackup
+release.properties
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# Spring Boot
+application-local.properties
+application-secret.properties
+application-prod.properties
+
+# ============================================================
+# 11. DATABASES & BACKUPS
+# ============================================================
+
+*.bak
+*.backup
+*.dump
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# MySQL
+mysql-data/
+
+# PostgreSQL
+postgres-data/
+
+# MongoDB
+mongodb-data/
+
+# Redis
+dump.rdb
+appendonly.aof
+
+# ============================================================
+# 12. DOCKER & CONTAINERS
+# ============================================================
+
+# Local environment overrides
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Container volumes
+volumes/
+docker-data/
+
+# ============================================================
+# 13. LOGS, TEMPORARY FILES & BACKUPS
+# ============================================================
+
+*.log
+logs/
+tmp/
+temp/
+tempfiles/
+*.tmp
+*.temp
+*.old
+*.orig
+*.bak
+*.swp
+*.swo
+*.cache
+
+# ============================================================
+# 14. API / TESTING / AUTOMATION
+# ============================================================
+
+# Postman
+postman_collection.local.json
+postman_environment*.json
+
+# Newman
+newman/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Selenium
+geckodriver.log
+chromedriver.log
+
+# ============================================================
+# 15. CLOUD & DEPLOYMENT
+# ============================================================
+
+.aws/
+.azure/
+.gcloud/
+.firebase/
+.serverless/
+terraform.tfstate
+terraform.tfstate.*
+.terraform/
+*.tfvars
+!*.tfvars.example
+*.tfplan
+
+# ============================================================
+# 16. LARGE MEDIA & ARCHIVES
+# ============================================================
+
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.iso
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.mp3
+*.wav
+
+# ============================================================
+# 17. MISCELLANEOUS
+# ============================================================
+
+.DS_Store
+*.orig
+*.rej
+*.stackdump
+.npmrc.local
+.yarnrc.local
+.history/
+.parcel-cache/
+.sass-cache/
+
+# Local configuration
+config.local.*
+settings.local.*
+*.local.json
+*.local.yaml
+*.local.yml
+
+# ============================================================
+# END OF FILE
+# ============================================================
